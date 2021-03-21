@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/poz"
+
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+
+    tools:context=".EmailActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kontakt forma"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/primalac"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ivanjovovic98@gmail.com"
+        android:textColor="#fff"
+        android:background="@drawable/dugme"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/tema"
+            android:layout_marginTop="10dp"
+            android:hint="Tema"
+            android:textColor="#fff"
+            android:background="@drawable/dugme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/poruka"
+                android:background="@drawable/dugme"
+                android:hint="Vasa poruka"
+                android:layout_marginTop="10dp"
+                android:minHeight="400dp"
+                android:gravity="start"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:id="@+id/salji"
+                    android:text="Posalji"
+                    android:layout_marginTop="20dp"
+                    android:textColor="#fff"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dugme"
+                    />
+
+
+</LinearLayout>

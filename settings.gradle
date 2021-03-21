@@ -1,0 +1,2 @@
+rootProject.name='UDG apk'
+include ':app'
